@@ -67,7 +67,7 @@ let currentViewDifficulty = 'easy';
 const isLocalHost = ['localhost', '127.0.0.1'].includes(window.location.hostname);
 const API_URL = isLocalHost
     ? '/api/scores'
-    : 'https://aim-trainer-api.onrender.com/api/scores';
+    : 'https://aim-trainer-backend-jijv.onrender.com/api/scores';
 
 // Fetch the global leaderboard immediately when the page loads
 updateLeaderboard();

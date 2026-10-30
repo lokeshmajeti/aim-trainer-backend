@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: fps-aim-trainer-api-lokeshmajeti
+    name: aim-trainer-backend
     runtime: node
     plan: free
     buildCommand: npm ci --prefix backend
